@@ -1,0 +1,216 @@
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+
+#detail{
+    width: 100%;
+    background-color: #F8F8F8;
+}
+
+
+.d_header{
+    width: 100%;
+    height: 80px;
+}
+.d_header > div{
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+.d_header1{
+    width: 560px;
+    height: 50px;
+    float: left;
+}
+
+.d_header1 > span{
+    color: #3b3b3b;
+    line-height: 80px;
+    font-size:18px;
+    font-weight: bold;
+}
+
+
+.d_list{
+    width: 1200px;
+    margin: 0 auto;
+}
+.d_list .d_listLeft{
+    width: 960px;
+    float: left;
+}
+.d_listLeft1{
+    width: 960px;
+    height: 220px;
+    background-color: white;
+    border: 1px solid  #e5e5e5;
+}
+.d_listLeft1 > ul{
+    width: 960px;
+    height: 220px;
+}
+
+.d_listLeft1 > ul > li{
+    float: left;
+}
+
+
+.d_listLeft1 > ul > li:nth-of-type(1){
+    width: 160px;
+    height: 160px;
+    margin: 32px;
+}
+.d_listLeft1 > ul > li:nth-of-type(1) img{
+    width: 160px;
+    height: 160px;
+
+}
+.d_listLeft1 .d_text{
+    margin-top: 25px;
+    font-size: 14px;
+}
+.d_listLeft1 .d_text > span{
+    display: inline-block;
+    margin: 10px 10px 20px ;
+}
+.d_listLeft1 > ul > li:nth-of-type(3){
+    float: right;
+    margin: 20px 50px 20px ;
+}
+.d_listLeft1 > ul > li:nth-of-type(3) span{
+    display: inline-block;
+   margin-bottom: 10px;
+}
+.d_listLeft1 > ul > li:nth-of-type(3) >span img{
+    width: 115px;
+    height: 115px;
+}
+.d_listLeft1 > ul > li:nth-of-type(3) > span:nth-of-type(2){
+    display: inline-block;
+    width: 115px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.d_listLeft1 > ul > li:nth-of-type(3) > span:nth-of-type(3){
+    display: inline-block;
+    width: 115px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.d_listLeft2 {
+    background: #fff;
+    padding: 30px 20px;
+    border: 1px solid #e5e5e5;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.d_listLeft2 b {
+    border-bottom: 3px solid #fb474f;
+    padding: 5px;
+    margin-top: 10px;
+    width: 66px;
+    display: block;
+}
+pre {
+    line-height: 24px;
+    margin: 15px 0 5px;
+    font-size: 14px;
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+}
+.d_listLeft2 p {
+    line-height: 24px;
+    margin: 15px 0 5px;
+    font-size: 14px;
+}
+.d_listLeft2 p  em {
+    color: #fb474f;
+    font-style: normal;
+}
+
+
+.d_listRight{
+    width: 230px;
+    float: right;
+
+}
+.d_listRight > a{
+    background-color: white;
+    color: #333333;
+    font-size: 20px;
+    display: inline-block;
+    width: 230px;
+    height: 356px;
+    border: 1px solid #e5e5e5;
+}
+.d_listRight1 > li:nth-of-type(1){
+    line-height: 60px;
+    width: 100%;
+    height: 60px;
+    font-weight: bold;
+    border-bottom: 1px solid #e5e5e5;
+}
+.d_listRight1 > li:nth-of-type(2){
+    line-height: 60px;
+    width: 100%;
+    height: 132px;
+    font-weight: bold;
+
+}
+.d_listRight1 > li:nth-of-type(2) img{
+    margin: 40px 70px;
+    width: 80px;
+    height: 80px;
+}
+.d_listRight1 > li:nth-of-type(3){
+    text-align: center;
+    font-size: 16px;
+    line-height: 50px;
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+}
+.d_listRight1 > li:nth-of-type(4){
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 36px;
+    width: 100%;
+    height: 36px;
+}
+.d_listRight1 > li:nth-of-type(5){
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 36px;
+    width: 100%;
+    height: 36px;
+}
+.d_listRight1 > li:nth-of-type(6){
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 36px;
+    width: 100%;
+    height: 36px;
+}
+.d_listRight > div{
+    margin-top: 10px;
+    width: 230px;
+    height: 290px;
+    background: url(../img/tuijianfuwushang_06.jpg);
+}
+.d_listRight > div > img{
+    width: 130px;
+    height: 130px;
+    margin: 50px;
+}

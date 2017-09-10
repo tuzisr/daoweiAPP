@@ -1,0 +1,123 @@
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: yellow;
+}
+html,body{
+    height: 100%;
+}
+/*服务商*/
+#provider{
+    width: 1200px;
+    margin: 0 auto;
+}
+#provider > p{
+    line-height: 85px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*服务商列表*/
+#p_tab{
+    width: 1200px;
+   /* height: 600px;*/
+    /*background-color: #e94840;*/
+}
+#p_tab > .p_tab1{
+    float: left;
+    width: 970px;
+    height: 100%;
+}
+#p_tab > .p_tab1 > li{
+    float: left;
+    width: 230px;
+    height: 300px;
+    border: 1px solid #cbcbcb;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#p_tab > .p_tab1 > li > a{
+    display: inline-block;
+    width: 230px;
+    height: 300px;
+}
+#p_tab > .p_tab1> li:hover a{
+    box-shadow: 1px 1px 20px rgba(128, 128, 128, 0.51);
+}
+.p_tabContent{
+    box-sizing: border-box;
+    padding: 10px;
+}
+.p_tabContent > li img{
+   width: 210px;
+    height: 210px;
+}
+.p_tabContent > li:nth-of-type(2){
+    margin-top: 10px;
+    height:26px;
+
+}
+.p_tabContent > li:nth-of-type(2) span:nth-of-type(1){
+    line-height: 26px;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: url(../img/home1.png) no-repeat;
+    position: relative;
+    top: 10px;
+
+}
+.p_tabContent > li:nth-of-type(2) span:nth-of-type(2){
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.p_tabContent > li:nth-of-type(3){
+    margin-top: 15px;
+    height:26px;
+}
+.p_tabContent > li:nth-of-type(3) span:nth-of-type(1){
+    float: left;
+    font-size: 12px;
+}
+.p_tabContent > li:nth-of-type(3) span:nth-of-type(2){
+    float: right;
+    font-size: 12px;
+}
+
+.p_tab2{
+    float: right;
+
+}
+.p_tab2 li{
+    width: 230px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.p_tab2 li > a{
+    display: inline-block;
+    width: 230px;
+    height: 300px;
+    background: url(../img/tuijianfuwushang_03.jpg);
+}
+.p_tab2 li:nth-of-type(2){
+    background: url(../img/tuijianfuwushang_06.jpg);
+
+}
+.p_tab2 li:nth-of-type(2) img{
+    width: 60%;
+    position: relative;
+    left: 45px;
+    top: 45px;
+}
+
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>到位App</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/provider.css">
+</head>
+<body>
+    {{include '../public/header'}}
+    <!--服务商-->
+    <div id="provider" class="clearfix">
+        <p>服务商</p>
+        <!--服务商-->
+        <div id="p_tab" class="clearfix">
+            <ul class="p_tab1 clearfix">
+                {{each service.data}}
+                <li>
+
+                    <a href="/serviceList?3&serviceId={{$value.serviceId}}">
+                        <ul class="p_tabContent">
+                            <li>
+                                <img src="{{$value.imgUrl}}" alt="">
+                            </li>
+                            <li>
+                                <span></span>
+                                <span style="color: #3b3b3b">{{$value.title}}</span>
+                            </li>
+                            <li>
+                                <span style="color: #3b3b3b">已接单{{$value.orderTakingCount}}单</span>
+                                <span style="color: #3b3b3b;">好评率{{$value.positiveCommentRate}}</span>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+
+                {{/each}}
+            </ul>
+            <ul class="p_tab2 clearfix">
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <img src="img/daowayApp.png" >
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    {{include '../public/footer1'}}
+</body>
+</html>

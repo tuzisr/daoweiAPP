@@ -1,0 +1,152 @@
+
+#join{
+    width: 100%;
+
+}
+.j_img{
+    width: 100%;
+    height: 300px;
+    background: url(../img/information.jpg) no-repeat center center
+}
+.info1 {
+    width: 100%;
+    height: 300px;
+    background: #fff;
+}
+.center1, .center2 {
+    width: 1200px;
+    margin: 0 auto;
+}
+.center1 img {
+    margin: 60px;
+}
+.center1 div {
+    float: right;
+    line-height: 60px;
+    padding-top: 100px;
+    margin-right: 150px;
+}
+.center1 b, .center2 b {
+    font-size: 32px;
+}
+.center1 p, .center2 p {
+    font-size: 22px;
+    margin-left: 55px;
+}
+
+.info2 {
+    width: 100%;
+    height: 300px;
+    background: #f9f9f9;
+}
+.center2 div {
+    line-height: 60px;
+    padding-top: 90px;
+    float: left;
+}
+.center2 img {
+    float: right;
+    margin: 60px;
+    width: 168px;
+    height: 179px;
+}
+
+#cooperation{
+    background: #f9f9f9;
+    height: 100%;
+    /*width: 1400px;*/
+}
+.cooperation {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding: 100px 0 0 0;
+    height: 31px;
+
+}
+.cooperation span {
+    color: #fb474f;
+}
+
+.cooperation-center {
+    padding-top: 20px;
+    background: #f9f9f9;
+}
+.cooperation-center {
+    width: 660px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+.tanme {
+    line-height: 46px;
+    height: 46px;
+}
+.cooperation-center div i {
+    width: 120px;
+    text-align: right;
+    float: left;
+    display: block;
+}
+.cooperation-center div em {
+    color: red;
+    margin-right: 5px;
+}
+.cooperation-center div div {
+    float: left;
+}
+.cooperation-center div input[type=text], .cooperation-center div input[type=tel] {
+    width: 500px;
+    padding-left: 15px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 6px;
+    border: 1px solid #d1d1d1;
+    margin-left: 10px;
+}
+.ched {
+    line-height: 40px;
+    height: 126px;
+}
+.cooperation-center div i {
+    width: 120px;
+    text-align: right;
+    float: left;
+    display: block;
+}
+.cooperation-center div em {
+    color: red;
+    margin-right: 5px;
+}
+b, strong {
+    font-weight: 700;
+}
+.cooperation-center div div {
+    float: left;
+}
+.ched b input {
+    margin: 2px;
+}
+input[type=checkbox], input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+}
+.ched label {
+    margin: 0 6px;
+}
+.ched b input {
+    margin-right: 2px;
+}
+.ched label {
+    margin: 0 6px;
+}
+.tbtn {
+    width: 126px;
+    background: #fb474f;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    margin-top: 30px;
+}

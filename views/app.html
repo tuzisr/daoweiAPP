@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>到位App</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    {{include '../public/header'}}
+    <!--主体-->
+    <div id="appContent">
+        <div class="app1">
+            <div class="erWeiMa"></div>
+            <a href="https://itunes.apple.com/cn/app/dao-wei-shang-men-fu-wu-hui/id953936745?mt=8">iPhone下载</a><br/>
+            <a href="#">Android下载</a>
+        </div>
+        <div class="app2">
+            <div>
+                <span class="title">
+                    <img src="img/xiazaiye-_05.jpg" alt="">
+                </span>
+                <span class="title_2">精选优质服务 全程品质保障</span>
+
+
+                <ul class="a_list clearfix">
+                    {{each download}}
+                    <li>
+                        <img src="{{$value.images}}" alt="">
+                        <div class="a_text">
+                            <span>{{$value.name}}</span><br/><br/>
+                            <span class="a_text2">{{$value.item}}</span>
+                        </div>
+                    </li>
+                    {{/each}}
+                </ul>
+
+
+            </div>
+        </div>
+        <div class="app3">
+            <div class="clearfix">
+                <div class="text_3">
+                    <span>
+                        <img src="img/xiazaiye-_34.jpg" alt="">
+                    </span>
+                    <span>轻松比价格    比品质    比速度</span>
+
+                </div>
+                <div class="a_img">
+                    <img src="img/xiazaiye-_31.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="app3 app4">
+            <div class="clearfix">
+                <div class="text_3 text_4">
+                    <span>
+                        <img src="img/xiazaiye-_03.jpg" alt="">
+                    </span>
+                    <span>不满意重做    未成交100%退款</span>
+
+                </div>
+                <div class="a_img a_img4">
+                    <img src="img/xiazaiye-_39.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="app3 app5">
+            <div class="clearfix">
+                <div class="text_3">
+                    <span>
+                        <img src="img/xiazaiye-_45.jpg" alt="">
+                    </span>
+                    <span>轻松比价格    比品质    比速度</span>
+
+                </div>
+                <div class="a_img a_img5">
+                    <img src="img/xiazaiye-_43.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{include '../public/footer1'}}
+
+</body>
+<script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>

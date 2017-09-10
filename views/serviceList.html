@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>到位App</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/serviceList.css">
+
+</head>
+<body>
+
+    {{include '../public/header'}}
+    <!--服务项列表-->
+    <div id="serviceList" class="clearfix">
+        <div class="s_erweima">
+            <div></div>
+            <div></div>
+        </div>
+        <br />
+        <div class="s_header">
+            <div>
+                <ul class="s_header1">
+                    <li>{{item.title}}&nbsp;&nbsp;&nbsp;</li>
+                    <li>营业时间：{{item.startTime}}-{{item.endTime}}&nbsp;&nbsp;&nbsp;</li>
+                    <li>最近可预约时间：<span style="color: red">09月08日 12:30</span></li>
+                </ul>
+                <ul class="s_header2">
+                    <li>
+                        <span style="color: red">{{item.orderTakingCount}}</span><br /><br />
+                        <span>成功接单</span>
+                    </li>
+                    <li>
+                        <span style="color: red">{{item.orderTakingRate}}</span><br /><br />
+                        <span>接单率</span>
+                    </li>
+                    <li>
+                        <span style="color: red">{{item.positiveCommentRate}}</span><br /><br />
+                        <span>好评率</span>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <!--小导航-->
+        <div class="s_nav">
+            <ul>
+                <li>
+                    <a href="#1">服务项目</a>
+                </li>
+                <li>
+                    <a href="#2">商家评论</a>
+                </li>
+                <li>
+                    <a href="#3">用户评论</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <!--服务列表-->
+        <div class="s_list clearfix">
+            <!--左边部分-->
+            <div class="se_left">
+                <!--列表头-->
+                <div>
+                    <div class="se_left1">
+                        <span>服务项目</span><br/>
+                        <span></span>
+                    </div>
+                </div>
+
+                <!--列表项-->
+                <ul class="se_left2">
+                    {{each item.prices}}
+                    <li>
+                        <a href="/detail?3&detailId={{$value.id}}&CNtag={{item.categoryName}}">
+                            <span>
+                                <img src="{{$value.pic_url}}" alt="服务项图片加载中...">
+                            </span>
+                            <span>{{$value.name}}</span><br />
+                            <span style="font-size: 16px">{{$value.description}}</span><br />
+                            <span>
+                            <span>{{$value.price}}</span><span style="font-size: 16px"> 元/台</span> <span style="margin-left: 500px; font-size: 14px; color: #3b3b3b">已售{{$value.salesNum}}</span>
+                        </span>
+                        </a>
+                    </li>
+                    {{/each}}
+                </ul>
+                <div id="2"></div>
+                <div class="se_jieshou">
+                    <div>
+                        <div class="se_left1">
+                            <span>商家介绍</span><br/>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="se_text" style="border-bottom: none;" >
+                        <p >{{item.companyName}}</p>
+                        <p >{{item.description}}</p><br /><br />
+
+                    </div>
+                    <div id="3"></div>
+                </div>
+
+
+                <div class="se_pinlun clearfix" >
+                    <div>
+                        <div class="se_left1">
+                            <span>用户评论</span><br/>
+                            <span></span>
+                        </div>
+                        <ul class="se_pinlun1">
+                            {{each comments.comments}}
+                            <li>
+                                <a href="#">
+                            <span>
+                                <img class="img" src="{{$value.iconUrl}}" alt="用户头像">
+                            </span>
+                                    <span>{{$value.nick}}</span><br />
+                                    <span><span style="color: red">{{$value.star}}星&nbsp;&nbsp;&nbsp;</span>  2017—09-07</span><br />
+                                    <span>{{$value.comment}}</span><br /><br /><br />
+                                    <span></span>
+                                    <span>{{$value.city}} {{$value.area}}</span>
+                                </a>
+                            </li>
+                            {{/each}}
+
+
+
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+            <!--右边部分-->
+            <div class="se_right">
+                <ul>
+                    <li>
+                        <img src="../img/erweima.png" alt="">
+                    </li>
+                    <li>
+                        <img src="../img/daowayApp.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--商家介绍-->
+
+        <!--评论-->
+
+
+    </div>
+        <!--更多评论-->
+    <div id="page">
+         <div class="page">
+             <button>查看更多评论</button>
+         </div>
+     </div>
+
+    {{include '../public/footer1'}}
+
+</body>
+<script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+<script>
+    window.onload = function () {
+        var $img = $('.img')
+        $.each($img, function (item, name) {
+            if($($img[item]).attr('src') === ''){
+                $($img[item]).attr('src', 'img/fuwushangimg.png')
+            }
+        })
+    }
+</script>
+</html>

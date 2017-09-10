@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>到位App</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/join.css">
+</head>
+<body>
+    {{include '../public/header'}}
+
+    <div id="join">
+        <div class="j_img"></div>
+        <div class="info1">
+            <div class="center1">
+                <img src="img/information1.jpg" width="168" height="166">
+                <div>
+                    <b>1.“互联网+”很美，但获取用户太贵？</b>
+                    <p>到位平台累计用户量接近1000万，完全开放，供入驻商家免费共享</p>
+                </div>
+            </div>
+        </div>
+        <div class="info2">
+            <div class="center2">
+                <div>
+                    <b>2、服务只覆盖少数地区，打广告太浪费？</b>
+                    <p>按商家的服务区域定向展示，精准提升品牌，轻松获取高质量订单</p>
+                </div>
+                <img src="img/information2.jpg" width="168" height="179">
+            </div>
+        </div>
+        <div class="info1">
+            <div class="center1">
+                <img src="img/information3.jpg" style="width: 133px; height: 178px">
+                <div>
+                    <b>3、服务太低频，用户留存低、回头太难？</b>
+                    <p>团结就是力量，低频+低频=高频，多种上门服务互推，回头客不难</p>
+                </div>
+            </div>
+        </div>
+        <div class="info2">
+            <div class="center2">
+                <div>
+                    <b>4、渠道太分散，各种渠道推广费时费力？</b>
+                    <p>入驻平台即加入“到位服务联盟”，直接让上数百个渠道帮您推广</p>
+                </div>
+                <img src="img/information4.jpg" style="width: 345px; height: 150px;">
+            </div>
+        </div>
+        <div class="info1">
+            <div class="center1">
+                <img src="img/information5.jpg" width="186" height="204">
+                <div>
+                    <b>5、技术投入大、运营成本高、利润太低？</b>
+                    <p>到位免费提供完善的O2O管理平台，无需技术投入，节约大量成本</p>
+                </div>
+            </div>
+        </div>
+        <div id="cooperation">
+            <div class="cooperation">
+                提交<span>合作</span>信息
+            </div>
+            <div class="cooperation-center">
+                <div class="tanme">
+                    <i><em>*</em>公司名称：</i>
+                    <div>
+                        <input id="companyName" type="text" maxlength="30" placeholder="填写公司名称">
+                    </div>
+                </div>
+                <div class="ched tanme">
+                    <i><em>*</em>服务项目：</i>
+                    <b id="bb" style="position: relative; right: 15px">
+                        <div style="margin-left: 20px">
+                            <input type="checkbox" id="1" value="家庭保洁"><label for="1">家庭保洁</label>
+                            <input type="checkbox" id="2" value="上门按摩"><label for="2">上门按摩</label>
+                            <input type="checkbox" id="3" value="上门维修"><label for="3">上门维修</label>
+                            <input type="checkbox" id="4" value="家电清洗"><label for="4">家电清洗</label>
+                            <input type="checkbox" id="5" value="洗衣洗护"><label for="5">洗衣洗护</label>
+                        </div>
+                        <div style="margin-left: 140px">
+                            <input type="checkbox" id="6" value="搬家货运"><label for="6">搬家货运</label>
+                            <input type="checkbox" id="7" value="美容美妆"><label for="7">美容美妆</label>
+                            <input type="checkbox" id="8" value="鲜花绿植"><label for="8">鲜花绿植</label>
+                            <input type="checkbox" id="9" value="上门医护"><label for="9">上门医护</label>
+                            <input type="checkbox" id="10" value="养车用车"><label for="10">养车用车</label>
+                        </div>
+                        <div style="margin-left: 140px">
+                            <input type="checkbox" id="11" value="保姆月嫂"><label for="11">保姆月嫂</label>
+                            <input style="width:120px; height: 22px; line-height: 22px" type="text" id="note">
+                            <label for="note">其它</label>
+                        </div>
+                    </b>
+                </div>
+                <div class="tanme">
+                    <i><em>*</em>联系电话：</i>
+                    <div>
+                        <input id="contactPhone" type="text" maxlength="11" placeholder="填写联系电话">
+                    </div>
+                </div>
+                <div class="tanme">
+                    <i><em>*</em>联系人：</i>
+                    <div>
+                        <input id="contactName" type="text" placeholder="填写联系人">
+                    </div>
+                </div>
+                <div class="tanme">
+                    <i><em>*</em>服务覆盖城市：</i>
+                    <div><input id="serviceCity" type="text" placeholder="填写覆盖城市">
+                    </div>
+                </div>
+                <div class="tanme">
+                    <i><em>*</em>日接单能力：</i>
+                    <div>
+                        <input id="dayOrders" type="text" placeholder="填写日接单能力（请填写数字不能有汉字）">
+                    </div>
+                </div>
+                <div class="tanme">
+                    <i>APP/公众账号：</i>
+                    <div>
+                        <input id="apporoffieceid" type="text" placeholder="填写APP/公众账号">
+                    </div>
+                </div>
+                <div class="tanme">
+                    <i>公司网址：</i>
+                    <div>
+                        <input id="companyHref" type="text" placeholder="填写公司网址">
+                    </div>
+                </div>
+                <button class="tbtn" onclick="submit()">提交商户信息</button>
+                <p style="color: #898989; text-align: center; margin-top: 20px">招商电话：010-64522010 （工作时间：周一至周五 9:00 - 18:00 法定假日除外）</p>
+            </div>
+        </div>
+
+    </div>
+
+    {{include '../public/footer1'}}
+
+</body>
+</html>

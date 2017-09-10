@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img class="img" src="" alt="">
+<img class="img" src="img/lairen.jpg" alt="">‘
+
+用户名:<input id="userName" >
+密码:<input  type="password">
+密码:<input type="password">
+<button onclick="sub()">注册</button>
+
+</body>
+<script src="js/jquery-1.12.3.js"></script>
+<script>
+    window.onload = function () {
+        var $img = $('.img')
+        $.each($img, function (item, name) {
+            console.log($($img[item]).attr('src'))
+            if($($img[item]).attr('src') === ''){
+
+                $($img[item]).attr('src', 'img/fuwushangimg.png')
+
+            }
+        })
+
+        var userName,
+            password,
+            password2;
+        function sub() {
+            userName = $('#userName').val();
+            password = $('input[type="password"]')[0].value;
+            password2 = $('input[type="password"]')[1].value;
+
+            if (userName.length < 4 || userName.length > 10) {
+                alert('用户名长度为4~10位');
+                return;
+            }
+
+            if (!password || !password2) {
+                alert('密码为空');
+                return;
+            }
+
+            if (password !== password2) {
+                alert('两次密码输入不一样,请重新输入');
+                return;
+            }
+
+            alert('注册成功');
+
+        }
+
+
+    }
+
+</script>
+</html>

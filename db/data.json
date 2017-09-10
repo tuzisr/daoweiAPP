@@ -1,0 +1,1130 @@
+{
+    "menuItem" : [
+      {"serveName" : "homeClear",
+        "name" : "家庭保洁",
+        "items" : [
+          "小时工", "开荒保洁", "擦玻璃", "深度保洁", "家居养护", "杀虫除螨"
+        ],
+        "showItems" : [
+          {
+            "categoryName": "家庭保洁",
+            "id": "2500462",
+            "pic" : "http://img.daoway.cn/img/price/2017/09/04/0a1b1952-c78e-41f4-8f9d-d635f477e367_thumb.jpg",
+            "serveDescription" : "4小时家庭保洁",
+            "serveRange" : "服务内容：1.室内保洁服务，阿姨携带清洁装备，包含：清洁毛...",
+            "price" : 99,
+            "serveTime" : "4小时"
+          },
+          {
+            "categoryName": "家庭保洁",
+            "id": "2461744",
+            "pic" : "http://img.daoway.cn/img/2016/12/28/7175ec52-16ab-4c8c-a12a-2abf7c05451b_thumb.jpg",
+            "serveDescription" : "家庭保洁",
+            "serveRange" : "服务内容：家庭保洁服务，2小时起订。（云家政暂时不提供带...",
+            "price" : 30,
+            "serveTime" : "1小时"
+          },
+          {
+            "categoryName": "家庭保洁",
+            "id": "2432374",
+            "pic" : "http://img.daoway.cn/img/price/2017/07/26/6bb7be54-cb2b-4202-b889-51e0e35fa5fc_thumb.jpg",
+            "serveDescription" : "家庭深度保洁4小时",
+            "serveRange" : "服务内容：家庭保洁，4小时/次，两个服务时间段：8：00-...",
+            "price" : 198,
+            "serveTime" : "4小时"
+          },
+          {
+            "categoryName": "家庭保洁",
+            "id": "2468779",
+            "pic" :  "http://img.daoway.cn/img/2017/03/07/4483d722-566f-4a1b-938c-2ab0219f1a49_thumb.jpg",
+            "serveDescription" : "开荒保洁1平方(30平起拍)",
+            "serveRange" : "服务内容：开荒保洁，30平米起购，服务商携带专业开荒工具上...",
+            "price" : 8,
+            "serveTime" : "1平米"
+          },
+          {
+            "categoryName": "家庭保洁",
+            "id": "109943",
+            "pic" :  "http://img.daoway.cn/img/2017/04/01/d03c386a-0fd9-415e-82f7-24e164608f8f_thumb.jpg",
+            "serveDescription" : "3小时保洁(9~18点)",
+            "serveRange" : "40分钟速达,不满意重做,服务有保障,服务内...",
+            "price" : 150,
+            "serveTime" : "3小时"
+          }
+        ],
+        "serveSource" : [
+          {
+            "name" : "云家政",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "三鼎家政",
+            "href" : "/fuwushang?serviceId=fba4e31f6c07416baef89bcbfbf5c910"
+          },
+          {
+            "name" : "580家政网",
+            "href" : "/fuwushang?serviceId=3005d55bc96b4b7eaadc53a1c65fe584"
+          },
+          {
+            "name" : "来人到家",
+            "href" : "/fuwushang?serviceId=ab65512d16b745f1b420c915cbd399f2"
+          },
+          {
+            "name" : "超级阿姨",
+            "href" : "/fuwushang?serviceId=1396167d25694952a788f7182ec06d7c"
+          },
+          {
+            "name" : "康吸来了",
+            "href" : "/fuwushang?serviceId=f223422b6b0a48c3b5a1bcd993873306"
+          },
+          {
+            "name" : "捷客帮",
+            "href" : "/fuwushang?serviceId=2eb998aff8484283b0747944123a185c"
+          },
+          {
+            "name" : "e家帮",
+            "href" : "/fuwushang?serviceId=be17e8b02b774b1bb4d238869c1ebf38"
+          },
+          {
+            "name" : "e家洁",
+            "href" : "/fuwushang?serviceId=dd2b8f8de48041a8a9d82a2075cc5a55"
+          },
+          {
+            "name" : "家事无忧",
+            "href" : "/fuwushang?serviceId=2d0c3acc15284017950ae49027e6d946"
+          },
+          {
+            "name" : "保洁宝",
+            "href" : "/fuwushang?serviceId=d2b3a3d0571e43f4867048f49e9e4b0c"
+          },
+          {
+            "name" : "家政圈",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "水动力除螨",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "无忧保姆",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "肯洁",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "家姐家政",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "美乐虫控",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "爱家管家",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          }
+        ]
+      },
+      {"serveName" : "homeClear",
+        "name" : "上门按摩",
+        "items" : [
+          "中医推拿", "油压SPA", "局部理疗", "足疗套餐", "美体塑形", "母婴保健"
+        ],
+        "showItems" : [
+          {
+            "categoryName": "上门按摩",
+            "id": "2492052",
+            "pic" : "http://img.daoway.cn/img/price/2017/06/22/014f55c4-792e-4d13-8860-51e9bc91d6aa_thumb.jpg",
+            "serveDescription" : "三星精油SPA养生",
+            "serveRange" : "服务时长：90分钟服务介绍：在温和芬芳的香气中，S...",
+            "price" : 299,
+            "serveTime" : "1次"
+          },
+          {
+            "categoryName": "上门按摩",
+            "id": "2434381",
+            "pic" : "http://img.daoway.cn/img/2016/08/29/e5442590-9ead-4434-98d7-801f2dd549b8_thumb.jpg",
+            "serveDescription" : "肩颈腰调理",
+            "serveRange" : "时长：60分钟服务姿势：卧姿适用介绍：适用于因寒湿、...",
+            "price" : 128,
+            "serveTime" : "1次"
+          },
+          {
+            "categoryName": "上门按摩",
+            "id": "2359671",
+            "pic" : "http://img.daoway.cn/img/2015/11/24/6b037dfd-f2f0-494e-935f-1a741631c22f_thumb.jpg",
+            "serveDescription" : "精油经络养生",
+            "serveRange" : "服务时长：90分钟服务姿势：仰卧或者俯卧推拿部位：全身（...",
+            "price" : 299,
+            "serveTime" : "1次"
+          },
+          {
+            "categoryName": "上门按摩",
+            "id": "2492052",
+            "pic" :  "http://img.daoway.cn/img/price/2017/06/22/55c55424-8771-4071-83f8-dfcf91d8ea8f_thumb.jpg",
+            "serveDescription" : "五星精油SPA养生",
+            "serveRange" : "服务时长：100分钟服务介绍：在温和芬芳的香气中，...",
+            "price" : 598,
+            "serveTime" : "1次"
+          },
+          {
+            "categoryName": "上门按摩",
+            "id": "2446807",
+            "pic" :  "http://img.daoway.cn/img/price/2017/06/22/de6ac744-aae3-445b-8b15-54f2803b94c2_thumb.jpg",
+            "serveDescription" : "四星中式按摩",
+            "serveRange" : "服务时长：65分钟服务介绍：中式按摩可使人体表面毛细血...",
+            "price" : 128,
+            "serveTime" : "1次"
+          }
+        ],
+        "serveSource" : [
+          {
+            "name" : "九阿哥",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "24到家",
+            "href" : "/fuwushang?serviceId=fba4e31f6c07416baef89bcbfbf5c910"
+          },
+          {
+            "name" : "宜生到家",
+            "href" : "/fuwushang?serviceId=3005d55bc96b4b7eaadc53a1c65fe584"
+          },
+          {
+            "name" : "爱心到家",
+            "href" : "/fuwushang?serviceId=ab65512d16b745f1b420c915cbd399f2"
+          },
+          {
+            "name" : "魅力辣妈",
+            "href" : "/fuwushang?serviceId=1396167d25694952a788f7182ec06d7c"
+          },
+          {
+            "name" : "邦妮SPA",
+            "href" : "/fuwushang?serviceId=f223422b6b0a48c3b5a1bcd993873306"
+          },
+          {
+            "name" : "经穴到家",
+            "href" : "/fuwushang?serviceId=2eb998aff8484283b0747944123a185c"
+          },
+          {
+            "name" : "妙手堂催乳中心",
+            "href" : "/fuwushang?serviceId=be17e8b02b774b1bb4d238869c1ebf38"
+          },
+          {
+            "name" : "好好先生",
+            "href" : "/fuwushang?serviceId=dd2b8f8de48041a8a9d82a2075cc5a55"
+          },
+          {
+            "name" : "五两养生",
+            "href" : "/fuwushang?serviceId=2d0c3acc15284017950ae49027e6d946"
+          },
+          {
+            "name" : "聚妍丽人",
+            "href" : "/fuwushang?serviceId=d2b3a3d0571e43f4867048f49e9e4b0c"
+          },
+          {
+            "name" : "合家欢",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          }
+        ]
+      },
+      {"serveName" : "homeClear",
+        "name" : "上门维修",
+        "items" : [
+          "手机维修", "家电维修", "电脑维修", "家庭维修", "管道疏通", "开锁换锁", "安装打孔", "空气净化"
+        ],
+        "showItems" : [
+          {
+            "categoryName": "上门维修",
+            "id": "2429047",
+            "pic" : "http://img.daoway.cn/img/price/2017/05/22/4aec3fd0-39f8-435a-a019-8c170a2f9045_thumb.jpg",
+            "serveDescription" : "空调维修",
+            "serveRange" : "下单服务：预约维修后洁修哥客服将在15分钟内联系客户，与客...",
+            "price" : 80,
+            "serveTime" : "1次"
+          },
+          {
+            "categoryName": "上门维修",
+            "id": "90781",
+            "pic" : "http://img.daoway.cn/img/2016/11/08/e438e872-d133-47af-8437-ad93a35bdd1c_thumb.jpg",
+            "serveDescription" : "台式电脑上门维修",
+            "serveRange" : "故障描述：提供安装 win10、win8、win7、xp系...",
+            "price" : 100,
+            "serveTime" : "1次"
+          },
+          {
+            "categoryName": "上门维修",
+            "id": "2459988",
+            "pic" : "http://img.daoway.cn/img/2017/04/10/82322652-9fb0-4b94-9ab1-eb64a5a0550e_thumb.jpg",
+            "serveDescription" : "苹果7 外屏碎",
+            "serveRange" : "故障内容：外屏碎（显示正常）：设备机器外屏幕玻璃碎裂、但显...",
+            "price" : 260,
+            "serveTime" : "1次"
+          },
+          {
+            "categoryName": "上门维修",
+            "id": "2411817",
+            "pic" :  "http://img.daoway.cn/img/price/2017/05/17/316e57d6-3f15-421d-b299-f55bf444805d_thumb.jpg",
+            "serveDescription" : "苹果6plus128g内存升级",
+            "serveRange" : "服务内容：内存升级服务需大件机器操作，此项目需技术人员上门...",
+            "price" : 578,
+            "serveTime" : "1次"
+          },
+          {
+            "categoryName": "上门维修",
+            "id": "2470611",
+            "pic" :  "http://img.daoway.cn/img/price/2017/06/08/4bf67c19-4d37-487c-9fc9-c39701a54951_thumb.jpg",
+            "serveDescription" : "空调维修 不含高空费",
+            "serveRange" : "服务流程：1.预约维修后家急哥师傅会在1小时内联系客户，...",
+            "price" : 139,
+            "serveTime" : "1台"
+          }
+        ],
+        "serveSource" : [
+          {
+            "name" : "e修鸽",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "小猴快修",
+            "href" : "/fuwushang?serviceId=fba4e31f6c07416baef89bcbfbf5c910"
+          },
+          {
+            "name" : "极客修",
+            "href" : "/fuwushang?serviceId=3005d55bc96b4b7eaadc53a1c65fe584"
+          },
+          {
+            "name" : "想帮帮",
+            "href" : "/fuwushang?serviceId=ab65512d16b745f1b420c915cbd399f2"
+          },
+          {
+            "name" : "乐乐达手机维修",
+            "href" : "/fuwushang?serviceId=1396167d25694952a788f7182ec06d7c"
+          },
+          {
+            "name" : "靓速电脑上门维修",
+            "href" : "/fuwushang?serviceId=f223422b6b0a48c3b5a1bcd993873306"
+          },
+          {
+            "name" : "闪修侠",
+            "href" : "/fuwushang?serviceId=2eb998aff8484283b0747944123a185c"
+          },
+          {
+            "name" : "牛机网",
+            "href" : "/fuwushang?serviceId=be17e8b02b774b1bb4d238869c1ebf38"
+          },
+          {
+            "name" : "十分到家维修",
+            "href" : "/fuwushang?serviceId=dd2b8f8de48041a8a9d82a2075cc5a55"
+          },
+          {
+            "name" : "e修哥维修清洁",
+            "href" : "/fuwushang?serviceId=2d0c3acc15284017950ae49027e6d946"
+          },
+          {
+            "name" : "Hi维修",
+            "href" : "/fuwushang?serviceId=d2b3a3d0571e43f4867048f49e9e4b0c"
+          },
+          {
+            "name" : "锁大师",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "Patica手机上门",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "洁修哥",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "3M空气净化",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "家急哥",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "万修科技",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "多彩换新",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "享修居家维修",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "银河系健康家",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "修机100",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "闪立修",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "齐家网",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "51修",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "同城修",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "云盾锁业",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "卓越维修服务",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "急事帮",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "啄木鸟家庭维修",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "小二家修",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "司睿姆全屋净化",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "喂喂服务",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "佳亨电脑维修",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "伟创新·电脑维修",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "星帮尼-跪式除甲醛",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "酷修客",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "加速度手机维修",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "百姓帮手",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "极速维修",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "友邦邻",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "奋斗爸爸快修",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "e呼就到",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "圣匠",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "补优优",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "优克空气净化",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "豫平快修",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "e修大师",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "普思电脑",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "无忧维修",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          }
+        ]
+      },
+      {"serveName" : "homeClear",
+        "name" : "家电清洗",
+        "items" : [
+          "空调清洗", "油烟机清洗", "洗衣机清洗", "冰箱清洗", "燃气灶清洗", "热水器清洗", "微波炉清洗", "饮水机清洗"
+        ],
+        "showItems" : [
+          {
+            "categoryName": "家电清洗",
+            "id": "2396856",
+            "pic" : "http://img.daoway.cn/img/price/2017/08/21/0183c67e-b1b3-4fdb-9b26-07515a16741c_thumb.jpg",
+            "serveDescription" : "油烟机清洗",
+            "serveRange" : "我们是TCL集团旗下家电服务品牌服务流程：1.验机2....",
+            "price" : 99,
+            "serveTime" : "1台"
+          },
+          {
+            "categoryName": "家电清洗",
+            "id": "64835",
+            "pic" : "http://img.daoway.cn/img/2016/12/27/c44465bd-4cf5-4089-a3f9-1fdb146a5838_thumb.jpg",
+            "serveDescription" : "波轮洗衣机清洗保养",
+            "serveRange" : "服务流程：1. 验机；2. 做家庭环境防护，准备工具；...",
+            "price" : 49,
+            "serveTime" : "1台"
+          },
+          {
+            "categoryName": "家电清洗",
+            "id": "2381062",
+            "pic" : "http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+            "serveDescription" : "挂机空调深度清洗保养",
+            "serveRange" : "服务时长：40分钟服务流程：1.验机：检测服务环境是...",
+            "price" : 68,
+            "serveTime" : "1次"
+          },
+          {
+            "categoryName": "家电清洗",
+            "id": "2485257",
+            "pic" :  "http://img.daoway.cn/img/price/2017/05/18/33578836-7f27-4347-900d-983ee2313359_thumb.jpg",
+            "serveDescription" : "【3台】空调挂机套餐清洗",
+            "serveRange" : "下单服务：预约维修后洁修哥客服将在15分钟内联系客户，与客...",
+            "price" : 255,
+            "serveTime" : "1次"
+          },
+          {
+            "categoryName": "家电清洗",
+            "id": "2473486",
+            "pic" :  "http://img.daoway.cn/img/price/2017/05/28/db0ea4d4-b537-4845-b20f-f83fbba6287f_thumb.jpg",
+            "serveDescription" : "油烟机+空调套餐",
+            "serveRange" : "服务流程：1.验机2.准备工具、做家庭防护3.拆卸附件...",
+            "price" : 219,
+            "serveTime" : "1次"
+          }
+        ],
+        "serveSource" : [
+          {
+            "name" : "家电好师傅",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "牛牛家电清洗",
+            "href" : "/fuwushang?serviceId=fba4e31f6c07416baef89bcbfbf5c910"
+          },
+          {
+            "name" : "十分到家",
+            "href" : "/fuwushang?serviceId=3005d55bc96b4b7eaadc53a1c65fe584"
+          },
+          {
+            "name" : "e清洗",
+            "href" : "/fuwushang?serviceId=ab65512d16b745f1b420c915cbd399f2"
+          },
+          {
+            "name" : "轻松到家",
+            "href" : "/fuwushang?serviceId=1396167d25694952a788f7182ec06d7c"
+          },
+          {
+            "name" : "家电小哥",
+            "href" : "/fuwushang?serviceId=f223422b6b0a48c3b5a1bcd993873306"
+          },
+          {
+            "name" : "洁修哥清洗",
+            "href" : "/fuwushang?serviceId=2eb998aff8484283b0747944123a185c"
+          },
+          {
+            "name" : "轻喜到家",
+            "href" : "/fuwushang?serviceId=be17e8b02b774b1bb4d238869c1ebf38"
+          },
+          {
+            "name" : "家急哥清洗",
+            "href" : "/fuwushang?serviceId=dd2b8f8de48041a8a9d82a2075cc5a55"
+          },
+          {
+            "name" : "啄木鸟家电清洗",
+            "href" : "/fuwushang?serviceId=2d0c3acc15284017950ae49027e6d946"
+          },
+          {
+            "name" : "小蜜蜂维保汇",
+            "href" : "/fuwushang?serviceId=d2b3a3d0571e43f4867048f49e9e4b0c"
+          },
+          {
+            "name" : "绿满园",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "百邦居家",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "洁家无忧",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          }
+        ]
+      },
+      {"serveName" : "homeClear",
+        "name" : "衣物洗护",
+        "items" : [
+          "洗衣", "洗鞋修鞋", "家纺清洗", "箱包洗护", "定制改衣"
+        ],
+        "showItems" : [
+          {
+            "categoryName": "衣物洗护",
+            "id": "2426835",
+            "pic" : "http://img.daoway.cn/img/2016/12/19/9368d441-24b0-4897-8651-d28275888d7e_thumb.jpg",
+            "serveDescription" : "2双不限鞋类随心洗",
+            "serveRange" : "服务内容：1次两双鞋子不限种类精洗，不包含修补、翻新服务，...",
+            "price" : 49,
+            "serveTime" : "2双"
+          },
+          {
+            "categoryName": "衣物洗护",
+            "id": "48018",
+            "pic" : "http://img.daoway.cn/img/2015/06/12/d0d0b031-553d-4162-9dba-4cae838d9e2b_thumb.jpg",
+            "serveDescription" : "羽绒蚕丝羊毛 棉 被｜毛毯 厚",
+            "serveRange" : "服务内容：棉被，羽绒被，蚕丝被，羊毛被，毛毯（厚）。 ...",
+            "price" : 80,
+            "serveTime" : "件"
+          },
+          {
+            "categoryName": "衣物洗护",
+            "id": "2432122",
+            "pic" : "http://img.daoway.cn/img/2016/08/20/60f8cd8b-a5ba-45ab-93e7-ec6456c61d04_thumb.jpg",
+            "serveDescription" : "中款包清洗保养",
+            "serveRange" : "服务内容：包包内外污渍清洗，去霉杀菌上光处理（不含补色补伤...",
+            "price" : 268,
+            "serveTime" : "1个"
+          },
+          {
+            "categoryName": "衣物洗护",
+            "id": "2426991",
+            "pic" :  "http://img.daoway.cn/img/2017/03/01/cc6a7598-7200-4cc3-b157-dd9689f31098_thumb.jpg",
+            "serveDescription" : "半年随心卡(10双鞋)",
+            "serveRange" : "服务内容：可用5次，每次2双鞋子，不限种类精洗，不包含修补...",
+            "price" : 219,
+            "serveTime" : "1个"
+          },
+          {
+            "categoryName": "衣物洗护",
+            "id": "2426994",
+            "pic" :  "http://img.daoway.cn/img/2017/03/01/6bf88860-3d80-4f64-aa25-94d724409a00_thumb.jpg",
+            "serveDescription" : "全年随心卡(24双)",
+            "serveRange" : "服务内容：可用12次，每次2双鞋子，不限种类精洗，不包含修补...",
+            "price" : 469,
+            "serveTime" : "1次"
+          }
+        ],
+        "serveSource" : [
+          {
+            "name" : "鞋局",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "巧管家洗窗帘",
+            "href" : "/fuwushang?serviceId=fba4e31f6c07416baef89bcbfbf5c910"
+          },
+          {
+            "name" : "包大师",
+            "href" : "/fuwushang?serviceId=3005d55bc96b4b7eaadc53a1c65fe584"
+          },
+          {
+            "name" : "洗衣邦",
+            "href" : "/fuwushang?serviceId=ab65512d16b745f1b420c915cbd399f2"
+          },
+          {
+            "name" : "96大洗啦",
+            "href" : "/fuwushang?serviceId=1396167d25694952a788f7182ec06d7c"
+          },
+          {
+            "name" : "皮悦皮具护理",
+            "href" : "/fuwushang?serviceId=f223422b6b0a48c3b5a1bcd993873306"
+          },
+          {
+            "name" : "能匠世家",
+            "href" : "/fuwushang?serviceId=2eb998aff8484283b0747944123a185c"
+          }
+        ]
+      },
+      {"serveName" : "homeClear",
+        "name" : "搬家速运",
+        "items" : [
+          "搬家租车", "拆装搬运", "搬家套餐", "仓储寄存"
+        ],
+        "showItems" : [
+          {
+            "categoryName": "搬家速运",
+            "id": "2454451",
+            "pic" : "http://img.daoway.cn/img/2017/03/23/a962b36c-ece5-472e-bf05-eafbb658e37e_thumb.jpg",
+            "serveDescription" : "面包车搬家",
+            "serveRange" : "服务内容：1.面包车辆容积：12个24寸行李箱大小，可装载...",
+            "price" : 96,
+            "serveTime" : "1次"
+          },
+          {
+            "categoryName": "搬家速运",
+            "id": "2493356",
+            "pic" : "http://img.daoway.cn/img/price/2017/07/05/0180a722-fda4-41e7-b60e-5289dd952891_thumb.jpg",
+            "serveDescription" : "日式搬家",
+            "serveRange" : "一、服务特色1、收纳、打包、搬运、还原，不动手，搬新家；...",
+            "price" : 350,
+            "serveTime" : "1立方米"
+          },
+          {
+            "categoryName": "搬家速运",
+            "id": "2481979",
+            "pic" : "http://img.daoway.cn/img/2016/08/05/e19a997a-c81e-4438-8c89-48655b64edfb_thumb.jpg",
+            "serveDescription" : "计时搬家3人套餐",
+            "serveRange" : "4.2厢车尺寸：长*宽*高 4.2*1.8*1.81.费...",
+            "price" : 387,
+            "serveTime" : "小时"
+          },
+          {
+            "categoryName": "搬家速运",
+            "id": "2402357",
+            "pic" :  "http://img.daoway.cn/img/2016/11/12/c7d4cce9-b923-4bb7-a6b9-d3bb8ba9f607_thumb.jpg",
+            "serveDescription" : "专业金杯车搬家",
+            "serveRange" : "平顶金杯车。内部装货空间：长2.6米，宽1.3米，高1.3米...",
+            "price" : 240,
+            "serveTime" : "次"
+          },
+          {
+            "categoryName": "搬家速运",
+            "id": "2481981",
+            "pic" :  "http://img.daoway.cn/img/price/2017/05/10/27d6e8b6-a2ed-4cff-a5d2-16ef7939a7f8_thumb.jpg",
+            "serveDescription" : "计时搬家4人套餐",
+            "serveRange" : "服务内容：4.2厢车尺寸：长*宽*高 4.2*1.8*1....",
+            "price" : 440,
+            "serveTime" : "次"
+          }
+        ],
+        "serveSource" : [
+          {
+            "name" : "蓝犀牛",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "豆当搬家",
+            "href" : "/fuwushang?serviceId=fba4e31f6c07416baef89bcbfbf5c910"
+          },
+          {
+            "name" : "搬搬旗舰店",
+            "href" : "/fuwushang?serviceId=3005d55bc96b4b7eaadc53a1c65fe584"
+          },
+          {
+            "name" : "好运来搬家",
+            "href" : "/fuwushang?serviceId=ab65512d16b745f1b420c915cbd399f2"
+          },
+          {
+            "name" : "得亿搬家",
+            "href" : "/fuwushang?serviceId=1396167d25694952a788f7182ec06d7c"
+          },
+          {
+            "name" : "搬马",
+            "href" : "/fuwushang?serviceId=f223422b6b0a48c3b5a1bcd993873306"
+          },
+          {
+            "name" : "掌上大管家",
+            "href" : "/fuwushang?serviceId=2eb998aff8484283b0747944123a185c"
+          }
+        ]
+      },
+      {"serveName" : "homeClear",
+        "name" : "美容美妆",
+        "items" : [
+          "化妆", "美甲", "美睫", "美容", "美发", "半永久"
+        ],
+        "showItems" : [
+          {
+            "categoryName": "美容美妆",
+            "id": "54645",
+            "pic" : "http://img.daoway.cn/img/price/2017/06/08/5965b094-c26c-4efe-96da-dfc06952f11d_thumb.jpg",
+            "serveDescription" : "Party妆",
+            "serveRange" : "美着呢，让你轻易成为万众瞩目的派对女王，To be part...",
+            "price" : 198,
+            "serveTime" : "次"
+          },
+          {
+            "categoryName": "美容美妆",
+            "id": "2488004",
+            "pic" : "http://img.daoway.cn/img/2017/05/31/c433bab8-3934-4fc7-bd83-394cee322201_thumb.jpg",
+            "serveDescription" : "黑色磨砂气质款",
+            "serveRange" : "采用进口环保甲油胶，磨砂气质款超显手白（包括修脚，卸甲油胶。...",
+            "price" : 118,
+            "serveTime" : "次"
+          },
+          {
+            "categoryName": "美容美妆",
+            "id": "2373065",
+            "pic" : "http://img.daoway.cn/img/price/2017/07/31/1cc47580-c17d-4f52-9e81-793d9cc53c71_thumb.jpg",
+            "serveDescription" : "夏季热销自然淑女款美睫",
+            "serveRange" : "【此价格为自然款价格，如需嫁接卷翘款请联系客服补差价】夏天...",
+            "price" : 268,
+            "serveTime" : "次"
+          },
+          {
+            "categoryName": "美容美妆",
+            "id": "54650",
+            "pic" :  "http://img.daoway.cn/img/price/2017/06/08/698fd1f6-0348-4d98-a2dc-27e770ffb0ac_thumb.jpg",
+            "serveDescription" : "演出妆",
+            "serveRange" : "演出妆不再是演员的专利，各种年会或是学校的表演契合的舞台妆是...",
+            "price" : 198,
+            "serveTime" : "次"
+          },
+          {
+            "categoryName": "美容美妆",
+            "id": "2488875",
+            "pic" :  "http://img.daoway.cn/img/price/2017/06/06/3d6c4e1d-0919-453f-a1d8-9195ffc80272_thumb.jpg",
+            "serveDescription" : "嫁接前卸除美睫（补拍）",
+            "serveRange" : "【本产品不单独提供服务，须与美睫产品组合下单】本店所有美睫...",
+            "price" : 58,
+            "serveTime" : "次"
+          }
+        ]
+      },
+      {"serveName" : "homeClear",
+        "name" : "鲜花绿植",
+        "items" : [
+          "包月鲜花", "礼品用花", "绿植"
+        ],
+        "showItems" : [
+          {
+            "categoryName": "鲜花绿植",
+            "id": "2477057",
+            "pic" : "http://img.daoway.cn/img/2017/04/20/d506b5cd-f4d4-4dd3-90d5-41bec917c8ae_thumb.jpg",
+            "serveDescription" : "幸福树 小富贵 白色塑料花盆",
+            "serveRange" : "1.本商品为带盆栽好,白色自吸水塑料花盆，盆高11cm，盆外...",
+            "price" : 8.8,
+            "serveTime" : "盆"
+          },
+          {
+            "categoryName": "鲜花绿植",
+            "id": "2414243",
+            "pic" : "http://img.daoway.cn/img/2016/06/16/77eb0120-4d30-445c-8324-b50dc35af52c_thumb.jpg",
+            "serveDescription" : "浪漫的爱（编号：8001）",
+            "serveRange" : "花材：19朵红玫瑰礼盒+8寸水果蛋糕",
+            "price" : 468,
+            "serveTime" : "次"
+          },
+          {
+            "categoryName": "鲜花绿植",
+            "id": "2477058",
+            "pic" : "http://img.daoway.cn/img/2017/04/20/91b1d6b9-a86a-4650-9593-071d436622ec_thumb.jpg",
+            "serveDescription" : "黄金绿萝 黄金葛 白色塑料花盆",
+            "serveRange" : "1.本商品为带盆栽好,白色自吸水塑料花盆，盆高11cm，盆外...",
+            "price" : 23,
+            "serveTime" : "盆"
+          },
+          {
+            "categoryName": "鲜花绿植",
+            "id": "2477506",
+            "pic" :  "http://img.daoway.cn/img/2017/04/23/1b78e393-449f-4baf-9cf1-5016b322a5d6_thumb.jpg",
+            "serveDescription" : "蝴蝶兰 外贸水泥花盆",
+            "serveRange" : "1.本商品为带盆栽好,外贸水泥花盆，盆高11cm，盆外径10...",
+            "price" : 79,
+            "serveTime" : "盆"
+          },
+          {
+            "categoryName": "鲜花绿植",
+            "id": "2484689",
+            "pic" :  "http://img.daoway.cn/img/price/2017/06/09/1465d875-0e3d-4c59-a2f0-8f851d5b6d75_thumb.jpg",
+            "serveDescription" : "聚财竹(大)自吸水塑料花盆",
+            "serveRange" : "1.本商品为带盆栽好,白色自吸水塑料花盆，盆高13cm，盆外...",
+            "price" : 69,
+            "serveTime" : "盆"
+          }
+        ],
+        "serveSource" : [
+          {
+            "name" : "泰笛绿植",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "鲜花到家",
+            "href" : "/fuwushang?serviceId=fba4e31f6c07416baef89bcbfbf5c910"
+          },
+          {
+            "name" : "花丼",
+            "href" : "/fuwushang?serviceId=3005d55bc96b4b7eaadc53a1c65fe584"
+          },
+          {
+            "name" : "野兽派鲜花蛋糕",
+            "href" : "/fuwushang?serviceId=ab65512d16b745f1b420c915cbd399f2"
+          },
+          {
+            "name" : "鼎卉鲜花",
+            "href" : "/fuwushang?serviceId=1396167d25694952a788f7182ec06d7c"
+          },
+          {
+            "name" : "花七休",
+            "href" : "/fuwushang?serviceId=f223422b6b0a48c3b5a1bcd993873306"
+          },
+          {
+            "name" : "小世界艺术花园",
+            "href" : "/fuwushang?serviceId=2eb998aff8484283b0747944123a185c"
+          },
+          {
+            "name" : "花千束",
+            "href" : "/fuwushang?serviceId=be17e8b02b774b1bb4d238869c1ebf38"
+          },
+          {
+            "name" : "紫藤花艺",
+            "href" : "/fuwushang?serviceId=dd2b8f8de48041a8a9d82a2075cc5a55"
+          },
+          {
+            "name" : "香巴拉品牌鲜花店",
+            "href" : "/fuwushang?serviceId=2d0c3acc15284017950ae49027e6d946"
+          },
+          {
+            "name" : "卉如鲜花",
+            "href" : "/fuwushang?serviceId=d2b3a3d0571e43f4867048f49e9e4b0c"
+          },
+          {
+            "name" : "花快到",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "花集生活馆",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "胡须先生",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          }
+        ]
+      },
+      {"serveName" : "homeClear",
+        "name" : "上门医护",
+        "items" : [
+          "护士上门", "挂号陪诊", "康复陪护", "私人医生"
+        ],
+        "showItems" : [
+          {
+            "categoryName": "上门医护",
+            "id": "2461817",
+            "pic" : "http://img.daoway.cn/img/2016/12/28/c03ba765-e77a-4e29-95c2-105998d0e6b8_thumb.jpg",
+            "serveDescription" : "骨科术后居家医学康复",
+            "serveRange" : "服务简介：肩周炎、颈椎病、颈肩综合症、腰椎疾病、髋关节功能...",
+            "price" : 268,
+            "serveTime" : "次"
+          },
+          {
+            "categoryName": "上门医护",
+            "id": "2431262",
+            "pic" : "http://img.daoway.cn/img/2016/09/22/f7d0ffa4-d243-4328-9963-c9f519b9efcf_thumb.jpg",
+            "serveDescription" : "上门打针 肌肉/皮下注射",
+            "serveRange" : "执业护士上门打针服务（139元/单次服务），预约时间请选择首...",
+            "price" : 129,
+            "serveTime" : "次"
+          },
+          {
+            "categoryName": "上门医护",
+            "id": "2461877",
+            "pic" : "http://img.daoway.cn/img/2016/12/28/8f6fc078-de21-4886-aa5f-143fd3022e68_thumb.jpg",
+            "serveDescription" : "关节置换术后居家医学康复",
+            "serveRange" : "服务简介：髋关节置换术后、膝关节置换术后服务介绍：主...",
+            "price" : 268,
+            "serveTime" : "次"
+          },
+          {
+            "categoryName": "上门医护",
+            "id": "2461880",
+            "pic" :  "http://img.daoway.cn/img/2016/12/28/1a5ae4a8-beb2-46a1-a3f3-a60f6bea943c_thumb.jpg",
+            "serveDescription" : "脑卒中术后居家医学康复",
+            "serveRange" : "适用人群：脑卒中后遗症患者服务介绍：脑卒中又称‘中风...",
+            "price" : 268,
+            "serveTime" : "次"
+          },
+          {
+            "categoryName": "上门医护",
+            "id": "2463014",
+            "pic" :  "http://img.daoway.cn/img/2017/01/11/e2362848-0ce2-43de-81d0-88f33c8cf7c0_thumb.jpg",
+            "serveDescription" : "就医陪诊",
+            "serveRange" : "适用人群：所有到院就诊人员更多内容请见图文详情",
+            "price" : 298,
+            "serveTime" : "次"
+          }
+        ],
+        "serveSource" : [
+          {
+            "name" : "医护到家",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "小趣好护士",
+            "href" : "/fuwushang?serviceId=fba4e31f6c07416baef89bcbfbf5c910"
+          },
+          {
+            "name" : "e陪护",
+            "href" : "/fuwushang?serviceId=3005d55bc96b4b7eaadc53a1c65fe584"
+          },
+          {
+            "name" : "金牌护士",
+            "href" : "/fuwushang?serviceId=ab65512d16b745f1b420c915cbd399f2"
+          },
+          {
+            "name" : "乐爱健康",
+            "href" : "/fuwushang?serviceId=1396167d25694952a788f7182ec06d7c"
+          },
+          {
+            "name" : "星舰基因",
+            "href" : "/fuwushang?serviceId=f223422b6b0a48c3b5a1bcd993873306"
+          }
+        ]
+      },
+      {"serveName" : "homeClear",
+        "name" : "养车用车",
+        "items" : [
+          "上门养车", "上门洗车", "汽车陪练", "机场泊车", "验车"
+        ],
+        "showItems" : [
+          {
+            "categoryName": "养车用车",
+            "id": "2476289",
+            "pic" : "http://img.daoway.cn/img/2017/04/19/6231c520-6ab3-4699-8a91-36f8fc66fe68_thumb.jpg",
+            "serveDescription" : "上门洗车（精洗）",
+            "serveRange" : "服务时长：90分钟服务内容：在标准洗的基础上，升级所有...",
+            "price" : 199,
+            "serveTime" : "辆"
+          },
+          {
+            "categoryName": "养车用车",
+            "id": "2496275",
+            "pic" : "http://img.daoway.cn/img/price/2017/07/25/0b648d1e-7278-43c9-a205-d1de9e89da20_thumb.jpg",
+            "serveDescription" : "进口灰壳5W-40 小保养套餐",
+            "serveRange" : "进口灰壳SN5W-40 机油4L+品牌机滤+上门工时随服务...",
+            "price" : 349,
+            "serveTime" : "次"
+          },
+          {
+            "categoryName": "养车用车",
+            "id": "2437047",
+            "pic" : "http://img.daoway.cn/img/price/2017/07/24/0f5d9751-7453-4046-8b53-a5310aba44b6_thumb.jpg",
+            "serveDescription" : "上门发动机舱精洗",
+            "serveRange" : "精洗发动机舱表面重污，养护元件及和线束；防止线路老化，保护发...",
+            "price" : 98,
+            "serveTime" : "次"
+          },
+          {
+            "categoryName": "养车用车",
+            "id": "2426171",
+            "pic" :  "http://img.daoway.cn/img/2016/07/06/2c4b29c4-ff73-4a9c-9969-af410cbcd959_thumb.jpg",
+            "serveDescription" : "小保养+全车检测",
+            "serveRange" : "汽车需保养，流动车吧养车小哥为帮忙！费用说明：1.安耐...",
+            "price" : 238,
+            "serveTime" : "次"
+          },
+          {
+            "categoryName": "养车用车",
+            "id": "2475089",
+            "pic" :  "http://img.daoway.cn/img/2017/04/19/0a718c81-bbe0-4329-b181-37153d43bffb_thumb.jpg",
+            "serveDescription" : "上门洗车+打蜡",
+            "serveRange" : "服务时间：60分钟服务内容：标准洗+炫彩手工打蜡。选用...",
+            "price" : 99,
+            "serveTime" : "辆"
+          }
+        ],
+        "serveSource" : [
+          {
+            "name" : "甲马洗车",
+            "href" : "/fuwushang?serviceId=c8e42f7716124bd2ad23c95445002d88"
+          },
+          {
+            "name" : "卡拉丁汽车服务",
+            "href" : "/fuwushang?serviceId=fba4e31f6c07416baef89bcbfbf5c910"
+          },
+          {
+            "name" : "携车网",
+            "href" : "/fuwushang?serviceId=3005d55bc96b4b7eaadc53a1c65fe584"
+          },
+          {
+            "name" : "流动车吧",
+            "href" : "/fuwushang?serviceId=ab65512d16b745f1b420c915cbd399f2"
+          },
+          {
+            "name" : "易行泊车",
+            "href" : "/fuwushang?serviceId=1396167d25694952a788f7182ec06d7c"
+          }
+        ]
+      }
+    ],
+     "download": [
+    {
+    "name": "家政",
+    "item": "小时工/保姆/阿姨/月嫂",
+    "images": "http://www.daoway.cn/pcimages/xiazaiye-_09.jpg"
+  },
+    {
+      "name": "按摩",
+      "item": "中医推拿/油压/SPA足疗保健",
+      "images": "http://www.daoway.cn/pcimages/xiazaiye-_11.jpg"
+    },
+    {
+      "name": "维修",
+      "item": "手机维修/家电维修/电脑维修",
+      "images": "http://www.daoway.cn/pcimages/xiazaiye-_13.jpg"
+    },
+    {
+      "name": "家电清洗",
+      "item": "冰箱/洗衣机/油烟机",
+      "images": "http://www.daoway.cn/pcimages/xiazaiye-_18.jpg"
+    },
+    {
+      "name": "洗衣洗鞋",
+      "item": "洗衣/洗鞋/洗包/家纺",
+      "images": "http://www.daoway.cn/pcimages/xiazaiye-_19.jpg"
+    },
+    {
+      "name": "搬家",
+      "item": "家具拆装/大件搬运",
+      "images": "http://www.daoway.cn/pcimages/xiazaiye-_20.jpg"
+    },
+    {
+      "name": "养容养体",
+      "item": "美体塑形/养生护理美容美甲/美眉/化妆",
+      "images": "http://www.daoway.cn/pcimages/xiazaiye-_24.jpg"
+    },
+    {
+      "name": "上门养车",
+      "item": "爱车保养/维修检测清洁养护/洗车/保养",
+      "images": "http://www.daoway.cn/pcimages/xiazaiye-_25.jpg"
+    },
+    {
+      "name": "鲜花",
+
+      "item": "礼品花束/家庭用花/花篮",
+      "images": "http://www.daoway.cn/pcimages/xiazaiye-_26.jpg"
+    }
+  ]
+}
+
+

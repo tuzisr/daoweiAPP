@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>到位App</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div id="index">
+
+        <!--头部-->
+        {{include '../public/header'}}
+
+        <!--轮播图-->
+        <div id="container">
+            <ul class="pic">
+                <li><a href="javascript:;"><img src="img/banner1.jpg" alt="pic1"></a></li>
+                <li><a href="javascript:;"><img src="img/banner2.jpg" alt="pic2"></a></li>
+                <li><a href="javascript:;"><img src="img/banner3.jpg" alt="pic3"></a></li>
+            </ul>
+            <ul id="position">
+                <li class="cur"></li>
+                <li class=""></li>
+                <li class=""></li>
+            </ul>
+        </div>
+
+        <!--轮播导航-->
+        <div id="nav">
+            <ul class="navList">
+                {{each menuItem}}
+                <li>
+                    <a href="#">{{$value.name}}
+                        <ul class="nL">
+                            {{each $value.items}}
+                            <li>
+                                <a href="#">{{$value}}</a>
+                            </li>
+                            {{/each}}
+                        </ul>
+                    </a>
+                    <img src="img/right.png" alt="">
+                    <img src="img/icon1.png" alt="">
+                </li>
+
+                {{/each}}
+            </ul>
+        </div>
+
+        <!--选项栏-->
+        <div id="option">
+            {{each menuItem}}
+            <div class="fff">
+                <div class="optionContent">
+                    <div class="optionTitle">
+
+                        <span>{{$value.name}}</span><br/>
+
+                        <span class="optionText">
+                            {{each $value.items}}
+                            <a href="">{{$value}}</a>
+                            {{/each}}
+                        </span>
+                        <span>
+                            <a href=""> 更多服务 > </a></span>
+                    </div>
+
+                    <div>
+                        <ul class="tab">
+                            {{each $value.showItems}}
+                            <li>
+                                <ul class="tabImg">
+                                    <li>
+                                        <img src="{{$value.pic}}" alt="">
+                                    </li>
+                                    <li>
+                                        <span>{{$value.serveDescription}}</span>
+                                    </li>
+                                    <li>
+                                    <span>
+                                         {{$value.serveRange}}
+                                    </span>
+                                    </li>
+                                    <li>
+                                        <span>{{$value.price}}</span>
+                                        <span>元/{{$value.serveTime}}</span>
+                                        <span>
+                                            <a href="/detail?3&detailId={{$value.id}}&CNtag={{$value.categoryName}}">查看详情</a>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </li>
+                            {{/each}}
+                        </ul>
+                    </div>
+
+
+                    <div class="fws">
+                        {{each $value.serveSource}}
+                        <a href="{{$value.href}}">{{$value.name}}</a>
+                        {{/each}}
+                    </div>
+
+                </div>
+            </div>
+            {{/each}}
+        </div>
+
+        <!--底部-->
+        {{include '../public/footer'}}
+    </div>
+
+</body>
+<script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+</html>

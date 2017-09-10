@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>到位App</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/detail.css">
+</head>
+<body>
+
+{{include '../public/header'}}
+<!--服务项列表-->
+<div id="detail" class="clearfix">
+    <div class="s_erweima">
+        <div></div>
+        <div></div>
+    </div>
+    <br />
+    <div class="d_header">
+        <!--所有分类  >  搬家速运  >  搬家套餐-->
+        <div>
+            <ul class="d_header1">
+                <span>所有分类&nbsp; >&nbsp; </span>
+                <span>
+                    <a href="#" style="color: #3b3b3b">{{cn}}&nbsp; >&nbsp; </a>
+                </span>
+                <span style="color: red">{{prices.sericePrice.catName}}</span>
+            </ul>
+        </div>
+    </div>
+
+    <!--服务介绍-->
+    <div class="d_list clearfix">
+        <div class="d_listLeft">
+            <div class="d_listLeft1">
+                <ul>
+                    <li>
+                        <img src="{{prices.sericePrice.picUrl}}" alt="">
+                    </li>
+                    <li class="d_text">
+                        <span style="font-size: 20px">{{prices.sericePrice.name}}</span><br/>
+                        <span>价格&nbsp;&nbsp;&nbsp;<span style="font-size: 20px; color: red">{{prices.sericePrice.price}}&nbsp;</span><span style="color: red">元/次</span></span><br/>
+                        <span>已售{{prices.sericePrice.salesNum}}</span>
+                    </li>
+                    <li>
+                        <span>
+                            <img src="img/erweima.png" alt="">
+                        </span><br/>
+                        <span>扫一扫</span><br/>
+                        <span>立即预约</span>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="d_listLeft2">
+                <b>服务描述</b>
+                <pre>
+{{prices.sericePrice.description}}
+
+                </pre>
+                <b>服务范围</b>
+                <p>{{prices.service.coverArea}}</p>
+                <b>服务时间</b>
+                <p>{{prices.service.startTime}}-{{prices.service.endTime}} 最近可预约时间:<em>09月08日 13:00</em></p>
+                <b>订购须知</b>
+                <br/>
+                <pre style="background: #fffcf1">
+{{prices.service.orderingNotice}}</pre>
+                <b>商家简介</b>
+                <p>{{prices.service.description}}</p>
+            </div>
+        </div>
+        <div class="d_listRight">
+            <a href="/serviceList?3&serviceId={{prices.sericePrice.serviceId}}">
+                <ul class="d_listRight1">
+                    <li>&nbsp;&nbsp;&nbsp;服务商</li>
+                    <li>
+                        <img src="{{prices.service.owner.iconUrl}}" alt="">
+                    </li>
+                    <li>
+                        {{prices.service.title}}
+                    </li>
+                    <li>
+                        <span>成功接单</span>
+                        <span style="color: red; margin-left: 100px">{{prices.sericePrice.orderTakingCount}}</span>
+                    </li>
+                    <li>
+                        <span>接单率</span>
+                        <span style="color: red;margin-left: 120px">{{prices.sericePrice.orderTakingRate}}</span>
+                    </li>
+                    <li>
+                        <span>好评率</span>
+                        <span style="color: red;margin-left: 120px">{{prices.sericePrice.positiveCommentRate}}</span>
+                    </li>
+                </ul>
+            </a>
+            <div>
+                <img src="img/daowayApp.png" alt="">
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+{{include '../public/footer1'}}
+
+
+
+</body>
+<script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>
